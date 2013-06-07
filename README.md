@@ -58,19 +58,19 @@ gunicorn tbws.service:app
 ### TBWS API
 
 #### /things/put/{key}
-**Methods: POST, PUT**
+**Methods: POST, PUT**  
 **Content-Type: application/text**
 
 Puts the content body of the request into the DB under the key URI parameter.
 
 #### /things/get/{key}
-**Methods: GET**
+**Methods: GET**  
 **Content-Type: application/text**
 
 Gets the value stored in the DB under the key URI parameter.
 
 #### /things/get_largest
-**Methods: GET**
+**Methods: GET**  
 **Content-Type: application/text**
 
 Gets the largest value stored in the DB.
