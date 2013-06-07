@@ -49,6 +49,11 @@ pip install -r tools/test-requires
 gunicorn tbws.service:app
 ```
 
+### TBWS Requirements
+
+* Must be able to store and retrieve key-value pairs
+* Must be able to return the largest value stored
+
 ### TBWS API
 
 #### POST & PUT /things/put/{key}
