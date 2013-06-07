@@ -11,6 +11,16 @@ and undivided attention to defeat.
 
 Good luck!
 
+### Getting Points
+
+<table>
+    <tr><td>Logic Errors</td></tr>
+    <tr><td>Desgin and Composition</td></tr>
+    <tr><td>Best Practice Conformance</td></tr>
+    <tr><td>Syntax Lint</td></tr>
+</table>
+
+
 ### Running TBWS
 ```bash
 pip install -r tools/pip-requires
