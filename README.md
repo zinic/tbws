@@ -13,6 +13,8 @@ Good luck!
 
 ### Running TBWS
 ```bash
+pip install -r tools/pip-requires
+pip install -r tools/test-requires
 gunicorn tbws.service:app
 ```
 
