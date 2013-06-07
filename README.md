@@ -20,7 +20,7 @@ are higher up on the table are worth more points. When you submit your pull requ
 have a list of fixes made to the codebase in your pull request. In addition, you should
 understand your fixes enough to speak to the hows and whys of each change.
 
-**Changes to the API are encouraged!**
+**Changes to the API are encouraged and are graded under design and composition!**
 
 <table>
     <tr>
