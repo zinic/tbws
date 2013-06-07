@@ -6,7 +6,8 @@ Hello fellow developer! I have completed this webservice according to a number o
 handed to me by my business people. I'd like you to take a look at it and send me a pull request
 of everything you would change to make it production ready! This might include things like
 changing program composition, adding extra files, cleaning up my source code... you know, the
-good stuff.
+good stuff. Heck, I don't even know if the REST API I made is perfect - that's on the table for
+review as well.
 
 I'd do the work myself however there are ants in my house that require my full and undivided
 attention to defeat.
@@ -56,17 +57,20 @@ gunicorn tbws.service:app
 
 ### TBWS API
 
-#### POST & PUT /things/put/{key}
+#### /things/put/{key}
+**Methods: POST, PUT**
+**Content-Type: application/text**
+
 Puts the content body of the request into the DB under the key URI parameter.
 
+#### /things/get/{key}
+**Methods: GET**
 **Content-Type: application/text**
 
-#### GET /things/get/{key}
 Gets the value stored in the DB under the key URI parameter.
 
+#### /things/get_largest
+**Methods: GET**
 **Content-Type: application/text**
 
-#### GET /things/get_largest
 Gets the largest value stored in the DB.
-
-**Content-Type: application/text**
